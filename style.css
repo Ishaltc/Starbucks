@@ -1,0 +1,120 @@
+*{
+    line-height: 1.5;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.hov{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.hov:hover{
+    color: #1e3932;
+}
+
+
+
+/* section1 */
+.left{
+    background-color: #d4e9e2;    
+}
+
+.article1{
+    max-width: 70%;
+}
+.para{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1022px) {
+    h1{
+        font-size: 30px;
+    }
+    .article1{
+        max-width: 89%;
+    }
+    .para{
+        font-size: 17px;
+    }
+}
+/* section2 */
+.second{
+    background-color: #1e3932;
+}
+/* section 5 */
+
+.h2{
+    font-size: 25px;
+}
+.para2{
+    font-size: 17px;
+}
+.foot1{
+    margin-left:  25%;
+    margin-right: 25%;
+}
+.footer1 p{
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+@media only screen and (max-width:600px) {
+    .foot1{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.footer-link{
+    color: black;
+}
+.footer-link:hover{
+    text-decoration: none;
+    color: black;
+}
+.foot-setting  li{
+    list-style: none;
+}
+.foot-setting ul{
+    padding: 0;
+    line-height: 2.795em;
+}
+
+footer li{
+    color: rgba(0, 0, 0, 0.58);
+}
+footer li:hover{
+    cursor: pointer;
+    color: black;
+}
+
+footer li{
+    list-style: none;
+    line-height: 2.795em;
+}
+@media all and (min-width: 768px) {
+    .width-btw{
+        border-right : 3px solid rgba(0, 0, 0, 0.38);
+     }
+}
+
+
+section h6{
+    color: #000;
+}
+section h6:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+.bord_rad2{
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.final_sent{
+    margin-left: 2em;
+}
+
+.final_text{
+    font-size: .925em;
+}
+.accordion-item{
+    border: 0;
+}
